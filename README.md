@@ -9,6 +9,9 @@ You can create an API or something like that editing the `server.js` and adding 
 And start coding!
 
 
+## Scripts
 **Starting a local server for development**: `npm run test`.
+
 **Building**: `npm run build`.
+
 **Getting your website working**: `npm run start`.
