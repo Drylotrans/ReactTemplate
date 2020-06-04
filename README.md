@@ -6,6 +6,7 @@ You can create an API or something like that editing the `server.js` and adding 
 - `git clone https://github.com/Drylotrans/ReactTemplate`
 - `cd ReactTemplate`
 - `npm install`
+
 And start coding!
 
 
