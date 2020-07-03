@@ -5,11 +5,12 @@ You can create an API or something like that editing the `server.js` and adding 
 You should import every file (.jsx, .js, .png, .svg, .css) inside a JSX o JS file.
 Example:
 ```jsx
+// Assuming you have a folder `src/client/assets` and `src/client/styles`...
 import logo from "../assets/logo.svg"; // .png files are also supported
 import styles from "../styles/App.css";
 
 // The name of the classes will be '[local]-[hash:base64:6]' ('yourClass-1ECm9i')
-function App() {
+export function App() {
   return (<div className={styles.yourClass}>
     <img src={logo} alt="Logo of my app" />
     <div className={`${styles.oneClass} ${styles.anotherClass}`}>My App!</div>
