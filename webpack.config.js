@@ -25,7 +25,7 @@ module.exports = {
                 }
             ]
         }, {
-            test: /\.(png|svg)$/,
+            test: /\.(png|svg|jpe?g|gif)$/,
             use: [{
                 loader: "file-loader",
                 options: {
@@ -39,8 +39,8 @@ module.exports = {
         new CleanWebpackPlugin(),
         new htmlWebpack({
             template: "./src/client/index.html",
-            base: "/",
-            filename: "./index.html"
+            filename: "./index.html",
+            base: "/"
         })
     ],
     devServer: {
