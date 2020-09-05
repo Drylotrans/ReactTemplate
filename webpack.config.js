@@ -1,7 +1,9 @@
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const htmlWebpack = require("html-webpack-plugin");
+const WebpackBar = require("webpackbar");
 
 module.exports = {
+    stats: "errors-only",
     entry: "./src/client/index.js",
     output: {
         filename: "[contentHash].js"
@@ -36,10 +38,13 @@ module.exports = {
         }]
     },
     plugins: [
+        new WebpackBar({
+            name: "React App"
+        }),
         new CleanWebpackPlugin(),
         new htmlWebpack({
             template: "./src/client/index.html",
-            filename: "./index.html",
+            filename: "index.html",
             base: "/"
         })
     ],
