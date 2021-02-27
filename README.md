@@ -27,7 +27,7 @@ And start coding!
 
 
 ## Scripts
-**Linter**: `npm run eslint`. (or `npm run eslint:fix` to fix all fixable errors/warns) - I didn't put eslint inside webpack because it's up to you if you want to run it. Also for performance reasons.
+**Linter**: `npm run eslint` (or `npm run eslint:fix` to fix all fixable errors/warns) - I didn't put eslint inside webpack because it's up to you if you want to run it. Also for performance reasons.
 
 **Testing it**: `npm run dev` - Can get heavy sometimes.
 
