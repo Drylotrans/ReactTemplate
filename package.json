@@ -17,7 +17,7 @@
         "webpack",
         "node"
     ],
-    "author": "Drylotrans",
+    "author": "Drylozu",
     "license": "MIT",
     "dependencies": {
         "express": "^4.17.1",
