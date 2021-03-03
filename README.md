@@ -19,7 +19,7 @@ export function App() {
 ```
 
 ## How to use it
-- `git clone https://github.com/Drylotrans/ReactTemplate`
+- `git clone https://github.com/Drylozu/ReactTemplate`
 - `cd ReactTemplate`
 - `npm install`
 
