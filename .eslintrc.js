@@ -25,6 +25,7 @@ module.exports = {
         'eol-last': ['warn', 'never'],
         'comma-dangle': ['warn', 'never'],
         'quote-props': ['warn', 'as-needed'],
+        'jsx-quotes': ['warn', 'prefer-single'],
         semi: ['warn', 'always', { omitLastInOneLineBlock: true }]
     },
     settings: {
